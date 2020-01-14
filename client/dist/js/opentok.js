@@ -70462,8 +70462,8 @@ exports.default = _default;
  * Module dependencies.
  */
 
-var global = (function() { return this; })();
-
+//var global = (function() { return this; })();
+var global = require('ws');
 /**
  * WebSocket constructor.
  */
